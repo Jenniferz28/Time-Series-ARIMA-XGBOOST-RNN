@@ -15,15 +15,15 @@ Furthermore, we find that not all observations are ordered by the date time. The
 stamp as an index. In the preprocessing step, we perform a bucket-average of the raw data to reduce the noise from the one-
 minute sampling rate. For simplicity, we only focus on the last 18000 rows of raw dataset (the most recent data in Nov 2010).
 
-#### Here, I used regression tree-based xgboost and univariate time series ARIMA t model the pattern of power consumption.
+### Here, I used regression tree-based xgboost and univariate time series ARIMA to model the pattern of power consumption.
 
-#### Future work should focus on the following two aspects. 
+### Future work should focus on the following two aspects. 
 
-##### (i) Dynamic regression time series model
+#### (i) Dynamic regression time series model
 Given the strong correlations between Sub metering 1, Sub metering 2 and Sub metering 3 and our target variable, 
 these variables could be included into the dynamic regression model or regression time series model.
 
-##### (ii) Dynamic xgboost model
+#### (ii) Dynamic xgboost model
 Include the timestep-shifted Global active power columns as features. The target variable will be current Global active power. 
 Recent history of Global active power up to this time stamp (say, from 100 timesteps before) should be included
 as extra features.
