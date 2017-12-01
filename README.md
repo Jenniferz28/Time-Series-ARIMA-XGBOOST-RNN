@@ -1,4 +1,4 @@
-# Time-Series-Prediction
+# Time Series Prediction for individual household power
 Individual household power prediction
 Dateset: https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption
 
