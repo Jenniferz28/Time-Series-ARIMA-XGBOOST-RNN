@@ -26,13 +26,13 @@ minute sampling rate. For simplicity, we only focus on the last 18000 rows of ra
 + Exploratory_analysis.py: exploratory analysis and plots of data.
 
 ### Here, I used 3 different approaches to model the pattern of power consumption.
-1. Univariate time series ARIMA
+- Univariate time series ARIMA
 ![onestep](https://user-images.githubusercontent.com/25689659/34470019-001ea4e0-eef7-11e7-822a-5a5132e8ca75.png)
 ![dynamic](https://user-images.githubusercontent.com/25689659/34470018-0011600a-eef7-11e7-89df-79372c49a791.png)
 ![forecast](https://user-images.githubusercontent.com/25689659/34470017-0004e848-eef7-11e7-9148-abfb62f95dcc.png)
-2. Regression tree-based xgboost 
+- Regression tree-based xgboost 
 ![xgbManual](https://user-images.githubusercontent.com/25689659/34470022-00463b90-eef7-11e7-8a3c-d80df291f7d6.png)
-3. Recurrent neural network LSTM (long short-term memoery) model
+- Recurrent neural network LSTM (long short-term memoery) model
 ![lstmprediction](https://user-images.githubusercontent.com/25689659/34470474-bc67dd80-eeff-11e7-9061-7a8057b2bd5a.png)
 
 ### Possible approaches to do in the future work:
