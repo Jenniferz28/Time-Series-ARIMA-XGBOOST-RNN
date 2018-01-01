@@ -21,12 +21,12 @@ minute sampling rate. For simplicity, we only focus on the last 18000 rows of ra
 + **Gpower_Xgb_Main.py** : The executable python program of a tree based model (xgboost).
 + myXgb.py : implements some functions used for the xgboost model.
 + **lstm_Main.py** : The executable python program of a LSTM model.
-```diff
-- Here tensorflow.contrib.timeseries was imported from TensorFlow1.4.
-```
 + lstm.py : implements a class of a time series model using an LSTMCell. The credit should go to  https://github.com/hzy46/TensorFlow-Time-Series-Examples/blob/master/train_lstm.py
 + util.py: implements various functions for data preprocessing.
 + Exploratory_analysis.py: exploratory analysis and plots of data.
+```diff
++ Environment : Python 3.6, TensorFlow1.4.
+```
 
 ### Here, I used 3 different approaches to model the pattern of power consumption.
 - Univariate time series ARIMA
