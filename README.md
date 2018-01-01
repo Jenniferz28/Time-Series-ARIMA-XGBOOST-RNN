@@ -49,5 +49,5 @@ Recent history of Global active power up to this time stamp (say, from 100 times
 as extra features.
 
 #### (iii) Multivariate LSTM
-Include the features per timestamp Sub metering 1, Sub metering 2 and Sub metering 3 and our target variable into the LSTMCell for the multivariate time-series regression model.
+Include the features per timestamp Sub metering 1, Sub metering 2 and Sub metering 3 and our target variable into the RNNCell for the multivariate time-series LSTM model.
 
