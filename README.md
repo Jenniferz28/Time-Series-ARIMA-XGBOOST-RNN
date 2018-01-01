@@ -23,6 +23,7 @@ minute sampling rate. For simplicity, we only focus on the last 18000 rows of ra
 + **lstm_Main.py** : The executable python program of a LSTM model.
 + lstm.py : implements a class of a time series model using an LSTMCell. The credit should go to  https://github.com/hzy46/TensorFlow-Time-Series-Examples/blob/master/train_lstm.py
 + util.py: implements various functions for data preprocessing.
++ Exploratory_analysis.py: exploratory analysis and plots of data.
 
 ### Here, I used 3 different approaches to model the pattern of power consumption.
 1. Univariate time series ARIMA
