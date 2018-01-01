@@ -20,7 +20,10 @@ minute sampling rate. For simplicity, we only focus on the last 18000 rows of ra
 + myArima.py : implements a class with some callable methods used for the Arima model.
 + **Gpower_Xgb_Main.py** : The executable python program of a tree based model (xgboost).
 + myXgb.py : implements some functions used for the xgboost model.
-+ **lstm_Main.py** : The executable python program of a LSTM model.![#f03c15](https://placehold.it/15/f03c15/000000?text=+)Here tensorflow.contrib.timeseries was imported from TensorFlow1.4.
++ **lstm_Main.py** : The executable python program of a LSTM model.
+```diff
+- Here tensorflow.contrib.timeseries was imported from TensorFlow1.4.
+```
 + lstm.py : implements a class of a time series model using an LSTMCell. The credit should go to  https://github.com/hzy46/TensorFlow-Time-Series-Examples/blob/master/train_lstm.py
 + util.py: implements various functions for data preprocessing.
 + Exploratory_analysis.py: exploratory analysis and plots of data.
@@ -47,7 +50,5 @@ as extra features.
 
 #### (iii) Multivariate LSTM
 
-```diff
-+ this text is highlighted in green
-- this text is highlighted in red
-```
+
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+)
