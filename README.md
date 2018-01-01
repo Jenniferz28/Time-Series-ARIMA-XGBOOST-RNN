@@ -16,18 +16,12 @@ stamp as an index. In the preprocessing step, we perform a bucket-average of the
 minute sampling rate. For simplicity, we only focus on the last 18000 rows of raw dataset (the most recent data in Nov 2010).
 
 ### A list of python files:
-+ ```diff
- Gpower_Arima_Main.py :  The executable python program of a univariate ARIMA model.
- myArima.py : implements a class with some callable methods used for the Arima model.
-```
-+ ```diff
- Gpower_Xgb_Main.py : The executable python program of a tree based model (xgboost).
- myXgb.py : implements some functions used for the xgboost model.
-```
-```diff
- lstm_Main.py: The executable python program of a LSTM model.
- lstm.py : implements a class of a time series model using an LSTMCell. The credit should go to https://github.com/hzy46/TensorFlow-Time-Series-Examples/blob/master/train_lstm.py
-```
++ *Gpower_Arima_Main.py *:  The executable python program of a univariate ARIMA model.
++ myArima.py : implements a class with some callable methods used for the Arima model.
++ *Gpower_Xgb_Main.py *: The executable python program of a tree based model (xgboost).
++ myXgb.py : implements some functions used for the xgboost model.
++ *lstm_Main.py*: The executable python program of a LSTM model.
++ lstm.py : implements a class of a time series model using an LSTMCell. The credit should go to https://github.com/hzy46/TensorFlow-Time-Series-Examples/blob/master/train_lstm.py
 + util.py: implements various functions for data preprocessing.
 + Exploratory_analysis.py: exploratory analysis and plots of data.
 ```diff
