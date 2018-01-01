@@ -25,8 +25,12 @@ minute sampling rate. For simplicity, we only focus on the last 18000 rows of ra
 + util.py: implements various functions for data preprocessing.
 
 ### Here, I used 3 different approaches to model the pattern of power consumption.
-1. Regression tree-based xgboost 
-2. Univariate time series ARIMA
+1. Univariate time series ARIMA
+![onestep](https://user-images.githubusercontent.com/25689659/34470019-001ea4e0-eef7-11e7-822a-5a5132e8ca75.png)
+![dynamic](https://user-images.githubusercontent.com/25689659/34470018-0011600a-eef7-11e7-89df-79372c49a791.png)
+![forecast](https://user-images.githubusercontent.com/25689659/34470017-0004e848-eef7-11e7-9148-abfb62f95dcc.png)
+2. Regression tree-based xgboost 
+![xgbManual](https://user-images.githubusercontent.com/25689659/34470022-00463b90-eef7-11e7-8a3c-d80df291f7d6.png)
 3. Recurrent neural network LSTM (long short-term memoery) model
 ![lstmprediction](https://user-images.githubusercontent.com/25689659/34470011-ffaa7232-eef6-11e7-9ded-5c7714952d06.png)
 
