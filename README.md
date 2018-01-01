@@ -28,8 +28,7 @@ minute sampling rate. For simplicity, we only focus on the last 18000 rows of ra
 1. Regression tree-based xgboost 
 2. Univariate time series ARIMA
 3. Recurrent neural network LSTM (long short-term memoery) model
-
-
+![lstmprediction](https://user-images.githubusercontent.com/25689659/34470011-ffaa7232-eef6-11e7-9ded-5c7714952d06.png)
 
 ### Possible approaches to do in the future work:
 #### (i) Dynamic regression time series model
