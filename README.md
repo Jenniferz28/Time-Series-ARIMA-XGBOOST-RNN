@@ -1,7 +1,7 @@
 # Time Series Prediction for Individual Household Power
 Dateset: https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption
 
-The electric power consumption was collected with a one-minute sampling rate over a period between Dec 2006
+The data was collected with a one-minute sampling rate over a period between Dec 2006
 and Nov 2010 (47 months) were measured. Six independent variables (electrical quantities and sub-metering values) a numerical dependent variable Global active power with 2,075,259 observations are available. Our goal is to predict the Global active power into the future.
 
 Here, missing values are dropped for simplicity. Furthermore, we find that not all observations are ordered by the date time. Therefore we analyze the data with explicit time stamp as an index. In the preprocessing step, we perform a bucket-average of the raw data to reduce the noise from the one-minute sampling rate. For simplicity, we only focus on the last 18000 rows of raw dataset (the most recent data in Nov 2010).
