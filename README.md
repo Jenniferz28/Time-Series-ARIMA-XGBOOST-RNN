@@ -15,19 +15,20 @@ Furthermore, we find that not all observations are ordered by the date time. The
 stamp as an index. In the preprocessing step, we perform a bucket-average of the raw data to reduce the noise from the one-
 minute sampling rate. For simplicity, we only focus on the last 18000 rows of raw dataset (the most recent data in Nov 2010).
 
+### A list of pythons files:
++ **Gpower_Arima_Main.py** :  The executable python program of a univariate ARIMA model.
++ myArima.py : implements a class with some callable methods used for the Arima model.
++ **Gpower_Xgb_Main.py** : The executable python program of a tree based model (xgboost).
++ myXgb.py : implements some functions used for the xgboost model.
++ **lstm_Main.py** : The executable python program of a LSTM model.
++ lstm.py : implements a class of a time series model using an LSTMCell. The credit should go to  https://github.com/hzy46/TensorFlow-Time-Series-Examples/blob/master/train_lstm.py
++ util.py: implements various functions for data preprocessing.
+
 ### Here, I used 3 different approaches to model the pattern of power consumption.
 1. Regression tree-based xgboost 
 2. Univariate time series ARIMA
 3. Recurrent neural network LSTM (long short-term memoery) model
 
-## A list of pythons files:
-+ Gpower_Arima_Main.py :  The executable python program of a univariate ARIMA model.
-+ myArima.py : implements a class with some callable methods used for the Arima model.
-+ Gpower_Xgb_Main.py : The executable python program of a tree based model (xgboost).
-+ myXgb.py : implements some functions used for the xgboost model.
-+ lstm_Main.py : The executable python program of a LSTM model.
-+ lstm.py : implements a class of a time series model using an LSTMCell. The credit should go to  https://github.com/hzy46/TensorFlow-Time-Series-Examples/blob/master/train_lstm.py
-+ util.py: implements various functions for data preprocessing.
 
 
 ### Possible approaches to do in the future work:
