@@ -51,4 +51,8 @@ as extra features.
 #### (iii) Multivariate LSTM
 
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+)
+
+```diff
++ this text is highlighted in green
+- this text is highlighted in red
+```
