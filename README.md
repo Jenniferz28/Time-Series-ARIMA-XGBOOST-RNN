@@ -1,11 +1,9 @@
 # Time Series Prediction for Individual Household Power
 Dateset: https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption
 
-The electric power consumption in an individual household with a one-minute sampling rate over a period between Dec 2006
-and Nov 2010 (47 months) were measured. Different electrical quantities and some sub-metering values are recorded. 
-Our goal is to predict the Global active power into the future.
+The electric power consumption was collected with a one-minute sampling rate over a period between Dec 2006
+and Nov 2010 (47 months) were measured. Six independent variables (electrical quantities and sub-metering values) a numerical dependent variable Global active power with 2,075,259 observations are available. Our goal is to predict the Global active power into the future.
 
-Six independentvariables and a numerical dependent variable Global active power with 2,075,259 observations are available. 
 Here, missing values are dropped for simplicity. Furthermore, we find that not all observations are ordered by the date time. Therefore we analyze the data with explicit time stamp as an index. In the preprocessing step, we perform a bucket-average of the raw data to reduce the noise from the one-minute sampling rate. For simplicity, we only focus on the last 18000 rows of raw dataset (the most recent data in Nov 2010).
 
 ### A list of python files:
@@ -20,7 +18,6 @@ Here, missing values are dropped for simplicity. Furthermore, we find that not a
 ```diff
 + Environment : Python 3.6, TensorFlow1.4.
 ```
-
 ### Here, I used 3 different approaches to model the pattern of power consumption.
 - **Univariate time series ARIMA**.(30-min average was applied on the data to reduce noise.)
 ![onestep](https://user-images.githubusercontent.com/25689659/34470019-001ea4e0-eef7-11e7-822a-5a5132e8ca75.png)
