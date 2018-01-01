@@ -33,7 +33,7 @@ minute sampling rate. For simplicity, we only focus on the last 18000 rows of ra
 2. Regression tree-based xgboost 
 ![xgbManual](https://user-images.githubusercontent.com/25689659/34470022-00463b90-eef7-11e7-8a3c-d80df291f7d6.png)
 3. Recurrent neural network LSTM (long short-term memoery) model
-![lstmprediction](https://user-images.githubusercontent.com/25689659/34470011-ffaa7232-eef6-11e7-9ded-5c7714952d06.png)
+![lstmprediction](https://user-images.githubusercontent.com/25689659/34470474-bc67dd80-eeff-11e7-9061-7a8057b2bd5a.png)
 
 ### Possible approaches to do in the future work:
 #### (i) Dynamic regression time series model
