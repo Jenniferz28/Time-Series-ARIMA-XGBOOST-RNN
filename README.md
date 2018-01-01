@@ -6,7 +6,7 @@ and Nov 2010 (47 months) were measured. Different electrical quantities and some
 Our goal is to predict the Global active power into the future.
 
 Six independentvariables and a numerical dependent variable Global active power with 2,075,259 observations are available. 
-Approximately 1.25% missing values are represented as “?” in the raw dataset. However, missing values are dropped for simplicity. Furthermore, we find that not all observations are ordered by the date time. Therefore we analyze the data with explicit time stamp as an index. In the preprocessing step, we perform a bucket-average of the raw data to reduce the noise from the one-minute sampling rate. For simplicity, we only focus on the last 18000 rows of raw dataset (the most recent data in Nov 2010).
+Here, missing values are dropped for simplicity. Furthermore, we find that not all observations are ordered by the date time. Therefore we analyze the data with explicit time stamp as an index. In the preprocessing step, we perform a bucket-average of the raw data to reduce the noise from the one-minute sampling rate. For simplicity, we only focus on the last 18000 rows of raw dataset (the most recent data in Nov 2010).
 
 ### A list of python files:
 + *Gpower_Arima_Main.py* :  The **executable** python program of a univariate ARIMA model.
