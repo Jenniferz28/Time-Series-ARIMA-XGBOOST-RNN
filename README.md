@@ -22,13 +22,13 @@ Approximately 1.25% missing values are represented as “?” in the raw dataset
 ```
 
 ### Here, I used 3 different approaches to model the pattern of power consumption.
-- Univariate time series ARIMA. 30-min average was applied on the data to reduce noise.
+- **Univariate time series ARIMA**.(30-min average was applied on the data to reduce noise.)
 ![onestep](https://user-images.githubusercontent.com/25689659/34470019-001ea4e0-eef7-11e7-822a-5a5132e8ca75.png)
 ![dynamic](https://user-images.githubusercontent.com/25689659/34470018-0011600a-eef7-11e7-89df-79372c49a791.png)
 ![forecast](https://user-images.githubusercontent.com/25689659/34470017-0004e848-eef7-11e7-9148-abfb62f95dcc.png)
-- Regression tree-based xgboost. 5-min average was performed. 
+- **Regression tree-based xgboost**.(5-min average was performed.) 
 ![xgbManual](https://user-images.githubusercontent.com/25689659/34470022-00463b90-eef7-11e7-8a3c-d80df291f7d6.png)
-- Recurrent neural network univariate LSTM (long short-term memoery) model. 15-min average was performed.
+- **Recurrent neural network univariate LSTM (long short-term memoery) model**. (15-min average was performed to reduce the noise.)
 ![predict_result](https://user-images.githubusercontent.com/25689659/34470791-a5047402-ef07-11e7-9111-ff1da558b6e1.png)
 
 ### Possible approaches to do in the future work:
@@ -42,5 +42,5 @@ Recent history of Global active power up to this time stamp (say, from 100 times
 as extra features.
 
 #### (iii) Multivariate LSTM
-Include the features per timestamp Sub metering 1, Sub metering 2 and Sub metering 3,date, time and our target variable into the RNNCell for the multivariate time-series LSTM model.
+Include the features per timestamp Sub metering 1, Sub metering 2 and Sub metering 3, date, time and our target variable into the RNNCell for the multivariate time-series LSTM model.
 
