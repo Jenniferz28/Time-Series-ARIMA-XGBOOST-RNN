@@ -40,4 +40,4 @@ as extra features.
 
 #### (iii) Multivariate LSTM
 Include the features per timestamp Sub metering 1, Sub metering 2 and Sub metering 3, date, time and our target variable into the RNNCell for the multivariate time-series LSTM model.
-
+![multivariate](https://user-images.githubusercontent.com/25689659/35536009-86ac3612-0513-11e8-9ccd-4311dff198ee.png)
